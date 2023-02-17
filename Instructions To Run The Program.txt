@@ -1,0 +1,16 @@
+
+
+
+To run the python file only
+1. Put the assignment.py and runDailyAt11am into the same folder
+2. Create a folder and note the full path of the folder
+3. Type into the shell the following command: python3 assignment.py full_path_of_folder_created_in_step_2
+
+
+To run the code daily at 11am:
+1. Put the assignment.py and runDailyAt11am into the same folder
+2. Create a folder and note the full path of the folder
+3. Edit runDailyAt11am and add full_path_of_folder_created_in_step_2. Make sure to leave a space after the assignment.py
+4. Type into the shell the following command: crontab runDailyAt11am
+
+Note: You can schedule it to run daily on Linux Machine
